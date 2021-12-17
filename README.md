@@ -51,6 +51,7 @@ Nice diagram
 2. Java Project
 
 ```bash
+cd software/java/HelloWorldFunction
 mvn package
 ```
 
