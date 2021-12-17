@@ -59,6 +59,7 @@ mvn package
 
 ```bash
 cd infrastructure
+cdk bootstrap
 cdk deploy
 ```
 
