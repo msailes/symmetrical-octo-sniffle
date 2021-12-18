@@ -42,9 +42,10 @@
 
 ### Infrastructure
 
-Nice diagram
+![Infrastructure](infrastructure.png)
 
 ## Prerequisite
+* AWS CLI
 * Install [JDK](https://www.oracle.com/java/technologies/downloads/)
 * Install [Maven](https://maven.apache.org/install.html)
 * Install NodeJS
@@ -67,6 +68,12 @@ mvn package
 cd infrastructure
 cdk bootstrap
 cdk deploy
+```
+Note:
+If you get a 'Could not assume role' error, try bootstrapping the stack using the below command. This should create all required roles automatically. 
+
+```
+cdk bootstrap --trust=ACCOUNT_ID --cloudformation-execution-policies=arn:aws:iam::aws:policy/AdministratorAccess 
 ```
 
 
