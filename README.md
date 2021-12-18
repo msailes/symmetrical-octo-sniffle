@@ -69,8 +69,8 @@ cd infrastructure
 cdk bootstrap
 cdk deploy
 ```
-Note:
-If you get a 'Could not assume role' error, try bootstrapping the stack using the below command. This should create all required roles automatically. 
+<b>Note</b>:
+If you get a "could not assume role" error, try bootstrapping the stack using the below command. This should create all required roles automatically. 
 
 ```
 cdk bootstrap --trust=ACCOUNT_ID --cloudformation-execution-policies=arn:aws:iam::aws:policy/AdministratorAccess 
