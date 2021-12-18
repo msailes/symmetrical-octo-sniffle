@@ -44,6 +44,12 @@
 
 Nice diagram
 
+## Prerequisite
+* Install [JDK](https://www.oracle.com/java/technologies/downloads/)
+* Install [Maven](https://maven.apache.org/install.html)
+* Install NodeJS
+* Install [CDK](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html#getting_started_install)
+
 ## Build
 
 1. 
