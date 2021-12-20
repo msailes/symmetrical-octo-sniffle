@@ -41,6 +41,7 @@
 ```
 
 ### Infrastructure
+<h3>Using AWS Serverless to deploy Machine learning models</h3>
 
 ![Infrastructure](infrastructure.png)
 
