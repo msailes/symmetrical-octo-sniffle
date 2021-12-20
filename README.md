@@ -98,3 +98,7 @@ Make a request for a model calculation
 }
 
 ```
+## Useful Resources
+* [Building Lambda functions with Java - AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/lambda-java.html)
+* [Building Lambda functions with Python - AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python.html)
+* [Using AWS Lambda with Amazon API Gateway - AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway.html)
