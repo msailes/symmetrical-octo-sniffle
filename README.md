@@ -42,7 +42,7 @@
 
 ### Infrastructure
 
-![Infrastructure](infrastructure.png)
+![Infrastructure](infra1.png)
 
 ## Prerequisite
 * AWS CLI
