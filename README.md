@@ -41,7 +41,9 @@
 ```
 
 ### Infrastructure
-<h4>Using AWS Serverless to deploy Machine learning models</h4>
+<h4><i>Using AWS Serverless to deploy Machine learning models</i></h4>
+
+The client makes an API request to a python Lambda which runs through some logic and triggers the Java Lambda function containing the ML model
 
 ![Infrastructure](infrastructure.png)
 
