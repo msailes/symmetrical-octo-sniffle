@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+###
+## The following script installs the prerequisites for deploying this 
+## Serverless stack.
+## The script assumes you are signed into AWS already with CLI credentials
+## and that you are using Ubuntu.
+###
+
 set -e
 
 apt-get update -y
