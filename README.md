@@ -1,5 +1,9 @@
 # symmetrical-octo-sniffle
 
+## High Level Architecture
+
+![Infrastructure](infrastructure.png)
+
 ## Project Structure
 
 ```bash
@@ -45,8 +49,6 @@
 
 The client makes an API request to a python Lambda which runs through some logic and triggers the Java Lambda function containing the ML model
 
-![Infrastructure](infrastructure.png)
-
 ## Prerequisite
 * AWS CLI
 * Install [JDK](https://www.oracle.com/java/technologies/downloads/)
@@ -56,9 +58,7 @@ The client makes an API request to a python Lambda which runs through some logic
 
 ## Build
 
-1. 
-
-2. Java Project
+Java Project
 
 ```bash
 cd software/java/HelloWorldFunction
